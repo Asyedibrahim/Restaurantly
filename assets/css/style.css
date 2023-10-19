@@ -1,0 +1,427 @@
+html{
+    scroll-behavior: smooth;
+}
+.back{
+    background-image: url(background3.jpg);
+    width: 100%;
+    height: 1100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Nav top starts */
+.navtop{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+    top: 0;
+}
+@media screen and (max-width:375px){
+    .navtop span{
+        font-size: 10px;
+    }
+}
+/* Nav top Ends */
+
+/* NavBar Starts */
+#navbar{
+    position: relative;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.541);
+    z-index: 12;
+}
+#navbar a{
+    color:#fff;
+    font-weight: 500;
+}
+#navbar a:hover{
+    color: #ffab3d;
+}
+#button{
+    border: 2px solid #ffab3d;
+    border-radius: 3.2rem;
+}
+#button a{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#button:hover{
+    background-color: #ffab3d;
+}
+#button a:hover{
+    color: black;
+}
+@media screen and (max-width:375px){
+    #button1{
+        font-size: 10px;
+    }
+}
+/* NavBar Ends */
+
+/* Home Starts */
+#welcome{
+    position: relative;
+    top: 200px;
+}
+#welcome h1{
+    font-weight: 700;
+    color: #fff ;
+}
+#welcome p{
+    color: #fff ;
+}
+#button1{
+    border: 2px solid #ffab3d;
+    border-radius: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+}
+#button1:hover{
+    background-color: #ffab3d;
+    text-decoration: none;
+    color: black;
+}
+
+/* Home Ends */
+
+/* About Us Starts */
+.about{
+    position: relative;
+    top:300px;
+    color: #fff;
+    background-color:rgba(0, 0, 0, 0.753)
+}
+@media screen and (max-width:425px){
+    .about{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:425px){
+    .about img{
+        position: relative;
+        top: -60px;
+        width: 70%;
+        height: 50%;
+    }
+}
+.about1{
+    background-color:black ;
+}
+.about1 .a1{
+    background-color: #111311;
+    padding: 20px;
+    color: #fff;
+}
+.a1 h1{
+    color: #ffab3d;
+}
+@media screen and (max-width:425px){
+    .about1{
+        font-size: 10px;
+        margin-top: 100px;
+    }
+}
+/* About Us Ends */
+
+/* Menu Starts */
+.menu{
+    background-color: #111311;
+}
+#tab a{
+    color: #fff;
+}
+#tab a:hover{
+    color: #ffab3d;
+    border: none;
+}
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color:#111311 !important;
+    border-color: #ffab3d !important;
+}
+.nav-tabs {
+    border-bottom: 0px solid #dee2e6 !important;
+}
+.menu .m1{
+    display: flex;
+}
+.m1 span{
+    position: relative;
+    top: 50px;
+    color: #fff;
+    font-weight: 500;
+}
+.m1 p{
+    position: relative;
+    top: 50px;
+    color: rgb(90, 90, 90);
+}
+@media screen and (max-width:425px){
+    #all{
+        font-size: 10px;
+    }
+    .m1 img{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width:425px){
+    #starters{
+        font-size: 10px;
+    }
+    .m1 img{
+        width: 30px;
+        height: 30px;
+    }
+}
+/* Menu Ends */
+
+/* Specials Starts */
+.special{
+    background-color: black;
+    height: 386px;
+}
+.special1{
+    display: flex;
+}
+#tabs {
+    width: 200px;
+}
+#tabs a{
+    color: #fff;
+    font-weight: 500;
+}
+#tabs a:hover{
+    color: #ffab3d;
+    border: none;
+}
+#first {
+    display: flex;
+    color: #fff;
+}
+#first1{
+    position: relative;
+    top: -164px;
+    left: 29%;
+    width: 84%;
+}
+#first i {
+    color: lightgray;
+}
+#first span{
+    color: lightgray;
+}
+/* Specials Ends */
+
+/* Events Starts */
+.events{
+    background-image: url(background5.jpg);
+    height: 650px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cc{
+    margin-left: 27px;
+}
+.c1{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.c2 {
+    position: relative;
+    top: 45px;
+    margin-left: 48%;
+    font-size: 15px;
+    text-align: left;
+}
+.carousel-indicators {
+    bottom: -97px !important;
+}
+.carousel-indicators li {
+    width: 14px !important;
+    border-radius: 100% !important;
+    height: 14px !important;
+}
+.carousel-indicators .active {
+    background-color: #ffab3d !important;
+}
+@media screen and (max-width:425px){
+    .cc .c2{
+        font-size: 6px;
+        margin-top: 50px;
+    }
+    .carousel-item img{
+        width: 100%;
+        height: 100vh;
+    }
+    .c1 img{
+        width: 40px;
+        height: 50px;
+    }
+
+}
+/* Events Ends */
+
+/* Reservation Starts */
+.reserve{
+    background-color: black;
+}
+#f1{
+    background-color: black;
+}
+/* Reservation Ends */
+
+/* Testimonials Starts */
+.testimonial{
+    background-color: rgb(19, 17, 17);
+    height: 36rem;
+}
+.sec1 .sec2{
+    margin-top: 20px;
+    background-color: #222522;
+    color: #fff;
+    padding: 15px;
+}
+.sec1 img{
+    margin-top: -26px;
+    margin-left: 20px;
+    border-radius: 100%;
+    border: thick solid #495057;
+}
+.sec1 #quote{
+    color: #ffab3d;
+}
+.sec3 {
+    margin-left: 20px;
+}
+.sec3 .s1{
+    font-weight:500;
+    color: #fff;
+}
+.sec3 .s2{
+    color: lightgray;
+}
+/* Testimonials Ends */
+
+/* Gallery Starts */
+.gallery{
+    background-color: black;
+}
+.img11{
+    display: inline-block;
+    overflow: hidden;
+}
+.img11 img{
+    display: block;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.g1{
+    display: flex;
+}
+.g1 img:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+   transform: scale(1.2);
+}   
+/* Gallery Ends */
+
+/* Chefs Starts */
+.chef{
+    background-color: black;
+}
+/* Chefs Ends */
+
+/* Contact Us Starts */
+.contact{
+    background-color: black;
+}
+.cont{
+    font-weight: 500;
+    color: #fff;
+}
+.cont2{
+    color: rgb(138, 136, 136);
+}
+#flex{
+    display: flex;
+}
+.flex2{
+    margin-left: 20px;
+}
+#clock{
+    position: relative;
+    top: 10px;
+}
+.fa-location-dot{
+    position: relative;
+    top: 10px;
+}
+.flex2 a{
+    color: rgb(138, 136, 136);;
+}
+/* Contact Us Ends */
+
+/* Contact 2 Starts */
+#line{
+    border-bottom: 0.2px solid #495057;
+}
+#footer{
+    color: #fff;
+}
+.fo1{
+    font-weight: 700;
+}
+.contact-f{
+    background-color: rgb(14, 13, 13);
+}
+#footer1{
+    color: #fff;
+}
+#footer1 i{
+    color: #ffab3d;
+}
+#footer1 a{
+    color: #fff;
+}
+#footer1 a:hover{
+    text-decoration: none;
+    color: #ffab3d;
+}
+#footer1 input{
+    border-radius: 3.2rem;
+    padding-right: 30px;
+    background-color: #111311;
+    color: #fff;
+}
+#footer1 button{
+    position: relative;
+    right: 77px;
+    border-radius: 3.2rem;
+    background-color: #ffab3d;
+}
+#footer1 button:hover{
+    background-color: #cc7400;
+}
+/* Contact 2 Ends */
+
+/* Footer Starts */
+.foot{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+}
+.foot a{
+    position: relative;
+    left: 37%;
+    top: -28px;
+    color: #ffab3d;
+}
+.foot a:hover{
+    color: #cc7400;
+}
+/* Footer Ends */

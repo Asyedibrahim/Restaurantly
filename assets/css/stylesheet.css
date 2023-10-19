@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(background3.jpg);
+    width: 100%;
+    height: 110vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x:hidden !important;
+}
+.btn:focus{
+    box-shadow: none !important;
+}
+input:focus{
+    box-shadow: none !important;
+}
+/* Navbar Starts */
+nav{
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+nav{
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    background-color: rgba(0, 0, 0);
+}
+nav a{
+    color:#fff;
+    font-weight: 500;
+}
+nav a:hover{
+    color: #ffab3d;
+}
+.book{
+    border: 2px solid #ffab3d !important;
+    border-radius: 3.2rem !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-weight: 500 !important;
+}
+.book:hover{
+    background-color: #ffab3d !important;
+    color: black !important;
+}
+/* Navbar Ends */
+
+/* Home Starts */
+#welcome h1{
+    font-weight: 700;
+    color: #fff ;
+}
+#welcome p{
+    color: #fff ;
+}
+#button1{
+    border: 2px solid #ffab3d;
+    border-radius: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+}
+#button1:hover{
+    background-color: #ffab3d;
+    text-decoration: none;
+    color: black;
+}
+
+/* Home Ends */
+
+/* About Us Starts */
+.about{
+    color: #fff;
+    background-color:rgba(0, 0, 0, 0.753)
+}
+
+.about1{
+    background-color:black ;
+}
+.about1 .a1{
+    background-color: #111311;
+    padding: 20px;
+    color: #fff;
+}
+.a1 h1{
+    color: #ffab3d;
+}
+.a1:hover h1{
+    color: #fff;
+}
+.a1:hover{
+    background-color: #ffab3d;
+}
+/* About Us Ends */
+
+/* Menu Starts */
+.menu{
+    background-color: #111311;
+}
+#tab a{
+    color: #fff;
+}
+#tab a:hover{
+    color: #ffab3d;
+    border: none;
+}
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color:#111311 !important;
+    border-color: #ffab3d !important;
+}
+.nav-tabs {
+    border-bottom: 0px solid #dee2e6 !important;
+}
+.menu .m1{
+    display: flex;
+}
+.m1 span{
+    position: relative;
+    top: 50px;
+    color: #fff;
+    font-weight: 500;
+}
+.m1 p{
+    position: relative;
+    top: 50px;
+    color: rgb(90, 90, 90);
+}
+@media screen and (max-width:425px){
+    #all{
+        font-size: 10px;
+    }
+    .m1 img{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width:425px){
+    #starters{
+        font-size: 10px;
+    }
+    .m1 img{
+        width: 30px;
+        height: 30px;
+    }
+}
+/* Menu Ends */
+
+/* Special Starts */
+
+#specials{
+    background-color: black;
+}
+#ssp1{
+    color: #fff;
+}
+#v-pills-tab a{
+    color: #fff !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #000 !important;
+    background-color: #ffab3d !important;
+}
+/* Special Starts */
+
+/* Events Starts */
+.events{
+    background-image: url(background5.jpg);
+    height: 68rem;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-indicators {
+    position: relative;
+    bottom: -60px !important;
+}
+.carousel-indicators li {
+    width: 14px !important;
+    border-radius: 100% !important;
+    height: 14px !important;
+}
+.carousel-indicators .active {
+    background-color: #ffab3d !important;
+}
+
+/* Events Ends */
+
+
+/* Reservation Starts */
+
+.reserve{
+    background-color: black;
+    position: relative;
+    bottom: 64%;
+}
+.form-control{
+    background-color: black !important;
+}
+@media screen and (max-width:993px) {
+    .reserve{
+        background-color: black;
+        position: relative;
+        top: 0px;
+    }
+}
+/* Reservation Ends */
+
+/* Testimonials Starts */
+.testimonial{
+    position: relative;
+    bottom: 64%;
+    background-color: rgb(19, 17, 17);
+    height: 36rem;
+}
+#sec1 .card{
+    margin-top: 20px;
+    background-color: #222522;
+    color: #fff;
+    /* padding: 15px; */
+}
+#sec1 img{
+    margin-top: -26px;
+    margin-left: 20px;
+    border-radius: 100%;
+    border: thick solid #495057;
+    position: absolute;
+    z-index: 10;
+}
+#sec1 #quote{
+    color: #ffab3d;
+}
+.sec3 {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.sec3 .s1{
+    font-weight:500;
+    color: #fff;
+}
+.sec3 .s2{
+    color: lightgray;
+}
+@media screen and (max-width:992px) {
+    .testimonial{
+        background-color: rgb(19, 17, 17);
+        height: 36rem;
+        position: relative;
+        top: 0px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .testimonial{
+        background-color: rgb(19, 17, 17);
+        height: 39rem;
+    }
+} 
+/* Testimonials Ends */
+
+/* Owl carousel Starts */
+#gallery{
+    background-color: #242424;
+    position: relative;
+    bottom: 64%;
+}
+@media screen and (max-width:992px) {
+    #gallery{
+        background-color: #242424;
+        position: relative;
+        top: 0%;
+    }
+}
+.owl-dots {
+    text-align: center !important;
+    margin-top: 10px !important;
+  }
+  
+  .owl-dot {
+    background-color: #495057 !important;
+    /* display: inline-block !important; */
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 50% !important;
+    margin: 0 5px !important;
+    cursor: pointer !important; /* for cursor arrow to hand*/
+  }
+  
+  .owl-dot.active {
+    background-color: #ffab3d !important;
+  }
+  
+/* Owl carousel Ends */
+
+
+/* Contact Us Starts */
+.contact{
+    background-color: black;
+    position: relative;
+    bottom: 64%;
+}
+@media screen and (max-width:992px) {
+    .contact{
+        background-color: black;
+        position: relative;
+        top: 0px;
+    }
+}
+.cont{
+    font-weight: 500;
+    color: #fff;
+}
+.cont2{
+    color: rgb(138, 136, 136);
+}
+#flex{
+    display: flex;
+}
+.flex2{
+    margin-left: 20px;
+}
+#clock{
+    position: relative;
+    top: 10px;
+}
+.fa-location-dot{
+    position: relative;
+    top: 10px;
+}
+.flex2 a{
+    color: rgb(138, 136, 136);;
+}
+/* Contact Us Ends */
+
+/* Contact 2 Starts */
+#line{
+    border-bottom: 0.2px solid #495057;
+}
+#footer{
+    color: #fff;
+}
+.fo1{
+    font-weight: 700;
+}
+.contact-f{
+    background-color: rgb(14, 13, 13);
+    position: relative;
+    bottom: 64%;
+}
+@media screen and (max-width:992px) {
+    .contact-f{
+        background-color: rgb(14, 13, 13);
+        position: relative;
+        top: 0%;
+    }
+}
+#footer1{
+    color: #fff;
+}
+#footer1 i{
+    color: #ffab3d;
+}
+#footer1 a{
+    color: #fff;
+}
+#footer1 a:hover{
+    text-decoration: none;
+    color: #ffab3d;
+}
+#footer1 input{
+    border-radius: 3.2rem;
+    padding-right: 30px;
+    background-color: #111311;
+    color: #fff;
+}
+#footer1 button{
+    position: relative;
+    right: 77px;
+    border-radius: 3.2rem;
+    background-color: #ffab3d;
+}
+#footer1 button:hover{
+    background-color: #cc7400;
+}
+/* Contact 2 Ends */
+
+/* Footer Starts */
+.foot{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    bottom: 64%;
+}
+@media screen and (max-width:992px) {
+    .foot{
+        background-color: black;
+        padding: 30px;
+        text-align: center;
+        color: #fff;
+        position: relative;
+        top: 0%;
+    }
+}
+.foot a{
+    position: fixed !important;
+    right: 8%;
+    bottom: 60px;
+    color: #ffab3d;
+    z-index: 99999;
+}
+.foot a:hover{
+    color: #cc7400;
+}
+/* Footer Ends */
